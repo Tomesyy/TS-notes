@@ -35,3 +35,15 @@ function calc(a: number, b:number): void{
 function speak(name: string, age?:number): string{
     return name.repeat(age);
 }
+
+// CLASSES
+class Person{
+    fullname: string;
+    constructor(firstname: string, lastname: string){
+        this.fullname = firstname + " " + lastname;
+    }
+    getName(): string {
+        return this.fullname
+    }
+}
+let person1 = new Person("Adetomiwa", "Adesanya");
