@@ -13,6 +13,7 @@ let names: string[] = [];
 names.push("John")
 names.push("Tomiwa")
 names.push("BlackDev")
+console.log(names);
 
 // TUPLE - is a special structure in TS that can hold as many
 // -values as needed
@@ -33,7 +34,7 @@ function calc(a: number, b:number): void{
 // parameter you use "?"
 
 function speak(name: string, age?:number): string{
-    return name.repeat(age);
+    return name + " " + age;
 }
 
 // CLASSES
