@@ -18,3 +18,20 @@ names.push("BlackDev")
 // -values as needed
 // FORMAT: let tupleName: [type, type, type] = [];
 let person: [string, number, boolean] = ["Tobi", 19, true];
+
+// FUNCTIONS
+
+function mySum(a: number, b: number): number {
+    return a+b
+}
+
+let result: number;
+function calc(a: number, b:number): void{
+    result = a+b;
+}
+// optional parameter- to declare a function with optional 
+// parameter you use "?"
+
+function speak(name: string, age?:number): string{
+    return name.repeat(age);
+}
